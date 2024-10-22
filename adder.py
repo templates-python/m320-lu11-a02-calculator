@@ -1,17 +1,16 @@
-""" Provides the Subtractor class. """
+""" Provides the Adder class. """
 from math_operations import MathOp
 
 
-class Subtractor(MathOp):
+class Adder(MathOp):
     """
-    Substracts two numbers.
+    Adds two numbers.
     """
-
     def execute_op(self, val1, val2):
         """
-        Executes the operation val1 - val2.
+        Executes the operation val1 + val2.
         The result can be read via the getter method of result.
         :param val1: first numerical value
         :param val2: second numerical value
         """
-        self._result = val1 - val2
+        self._result = val1 + val2

@@ -5,17 +5,18 @@ class Reader:
     It is a singleton, as the input (keyboard) is a physical device that is present only once.
     """
 
-    def __new__(self):
+    def __new__(cls):
         """ Singleton implementation """
-        if not hasattr(self, '_instance'):
-            self._instance = super(Reader, self).__new__(self)
-        return self._instance
+        if not hasattr(cls, '_instance'):
+            cls._instance = super(Reader, cls).__new__(cls)
+        return cls._instance
 
     def screen_info(self):
         """
         User prompt for the input.
         """
-        print(f'Geben Sie eine Rechnung in der Form 5 + 7 ein. \nFühren Sie die Berechnung mit <ENTER> aus.')
+        print('Geben Sie eine Rechnung in der Form 5 + 7 ein.')
+        print('Führen Sie die Berechnung mit <ENTER> aus.')
 
     def read(self):
         """
