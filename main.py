@@ -1,12 +1,17 @@
-def calculate():
+""" main routine for the calculator program """
+
+
+def main():
     """
-    calculates the total
-    :return: None
+    Creates the Tokenizer and Calculator objects
+    Runs the calculator
+    - Read the calculation from the user
+    - Determine the operation
+    - Perform the calculation
+    All exceptions are caught and printed
     """
-    price = 14.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+    pass
 
 
 if __name__ == '__main__':
-    calculate()
+    main()

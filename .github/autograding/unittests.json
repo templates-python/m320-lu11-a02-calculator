@@ -1,7 +1,97 @@
 [
   {
-    "name": "test",
-    "function": "test",
+    "name": "test_object_creation_adder",
+    "function": "test_object_creation_adder",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_object_creation_subtractor",
+    "function": "test_object_creation_subtractor",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_object_creation_multiplier",
+    "function": "test_object_creation_multiplier",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_object_creation_divider",
+    "function": "test_object_creation_divider",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_input_valid_input",
+    "function": "test_read_input_valid_input",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_input_invalid_operation",
+    "function": "test_read_input_invalid_operation",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_input_invalid_number",
+    "function": "test_read_input_invalid_number",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculator_valid_division",
+    "function": "test_calculator_valid_division",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculator_invalid_division",
+    "function": "test_calculator_invalid_division",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_math_op_instantiate",
+    "function": "test_math_op_instantiate",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_operation_created",
+    "function": "test_operation_created",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_adder",
+    "function": "test_adder",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_subtraktor",
+    "function": "test_subtraktor",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_multiplier",
+    "function": "test_multiplier",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_divider_well",
+    "function": "test_divider_well",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_divider_by_zero",
+    "function": "test_divider_by_zero",
     "timeout": 10,
     "points": 1
   }

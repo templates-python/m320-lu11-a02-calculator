@@ -1,5 +1,13 @@
 {
-  "files": ["main.py"],
-  "ignore" : [],
+  "files": [
+    "adder.py",
+    "calculator.py",
+    "divider.py",
+    "exceptions.py",
+    "math_operations.py",
+    "multiplier.py",
+    "subtractor.py"
+  ],
+  "ignore": [],
   "max": 20
 }
